@@ -56,3 +56,15 @@ function displayCrypto(data) {
     cryptoDiv.appendChild(lowMarketPrice);
     cryptoDiv.appendChild(highMarketPrice);
 }
+
+function getCurrentTime() {
+    const currentTime = document.querySelector('.current-time');
+
+    const time = new Date().toLocaleTimeString(undefined, {
+        timeStyle: 'short',
+    });
+
+    currentTime.textContent = time;
+}
+
+getCurrentTime();
