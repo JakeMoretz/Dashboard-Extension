@@ -59,7 +59,33 @@ h1 {
     padding-left: 20px;
 }
 
+/* weather */
+
 .weather {
-    text-align: end;
+    text-align: center;
     margin: 0;
+    margin-top: -50px;
+}
+
+.temp-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.current-city {
+    font-size: 1.3rem;
+    padding-left: 30px;
+}
+
+.weather-icon {
+    height: 130px;
+}
+
+.current-temp {
+    color: white;
+    font-size: 1.5rem;
+    padding-top: 20px;
+    margin: 0;
+    text-align: center;
 }
