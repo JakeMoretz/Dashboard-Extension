@@ -42,7 +42,7 @@ main {
 }
 
 .crypto > p {
-    font-size: 1.3rem;
+    font-size: 1rem;
 }
 
 /* time */
@@ -64,7 +64,7 @@ h1 {
 .weather {
     text-align: center;
     margin: 0;
-    margin-top: -50px;
+    margin-top: -70px;
     margin-right: 25px;
 }
 
@@ -75,17 +75,18 @@ h1 {
 }
 
 .current-city {
-    font-size: 1.3rem;
+    font-size: 1rem;
     padding-left: 30px;
+    margin-top: -10px;
 }
 
 .weather-icon {
-    height: 130px;
+    height: 100px;
 }
 
 .current-temp {
     color: white;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     padding-top: 20px;
     margin: 0;
     text-align: center;
